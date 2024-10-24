@@ -1,0 +1,553 @@
+body {
+  background-color: #fdfffc;
+}
+.UiDesktop {
+  display: flex;
+  justify-content: center;
+  color: #fdfffc;
+}
+.container {
+  width: 1000px;
+  position: relative;
+}
+.container center {
+  text-align: center;
+}
+.pink-text {
+  color: #ff66b3;
+  font-size: 16px;
+  font-family: 'Kosko Regular';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.blue-text {
+  color: #084b83;
+  font-size: 16px;
+  font-family: 'Kosko Regular';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.footer-content {
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 145px;
+}
+.Home {
+  width: 100%;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.HeadingHome {
+  left: 50px;
+  top: 100px;
+  position: absolute;
+  color: #ff66b3;
+  font-size: 48px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.SubtitleHome {
+  left: 50px;
+  width: 169px;
+  top: 225px;
+  position: absolute;
+  color: #084b83;
+  font-size: 20px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.ButtonHome {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 50px;
+  top: 450px;
+  position: absolute;
+  background: #ff66b3;
+  box-shadow: 0px 4px 10px rgba(255, 102, 179, 0.4);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  border: none;
+  color: #fdfffc;
+  font-size: 20px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+  cursor: pointer;
+  z-index: 10;
+}
+.PicHome1 {
+  width: 807.35px;
+  height: 509.8px;
+  left: 140px;
+  top: 33px;
+  position: absolute;
+}
+.About {
+  width: 100%;
+  height: 400px;
+  left: 0;
+  top: 600px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.HeadingAbout {
+  position: absolute;
+  color: #ff66b3;
+  font-size: 24px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+  top: 25px;
+  left: 0;
+  text-align: left;
+}
+.TextAbout1 {
+  width: 400px;
+  position: absolute;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+  top: 148px;
+  left: 0;
+}
+.TextAbout2 {
+  width: 300px;
+  position: absolute;
+  text-align: right;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+  top: 137px;
+  right: 0;
+}
+.PicAbout1 {
+  width: 323px;
+  height: 400px;
+  position: absolute;
+  left: calc(50% - 125px);
+  top: 0;
+}
+.Catalog {
+  width: 100%;
+  height: 640px;
+  left: 0px;
+  top: 680px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ButtonCatalog {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 421px;
+  top: 575px;
+  position: absolute;
+  background: #ff66b3;
+  box-shadow: 0px 4px 10px rgba(255, 102, 179, 0.4);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  border: none;
+  color: #fdfffc;
+  font-size: 20px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+  cursor: pointer;
+  z-index: 10;
+}
+.Size {
+  left: 786px;
+  top: 446px;
+  position: absolute;
+  text-align: center;
+}
+.Pic {
+  left: 774px;
+  top: 211px;
+  position: absolute;
+  border-radius: 30px;
+  border: 1px #084b83 solid;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+.ImagePhotoroom61 {
+  width: 225px;
+  height: 225px;
+  border-radius: 30px;
+}
+.Text {
+  left: 851px;
+  top: 173px;
+  position: absolute;
+  color: #ff66b3;
+  font-size: 24px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Size1 {
+  left: 554px;
+  top: 446px;
+  position: absolute;
+}
+.Pic1 {
+  left: 516px;
+  top: 211px;
+  position: absolute;
+  border-radius: 30px;
+  border: 1px #084b83 solid;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+.Group6 {
+  width: 225px;
+  height: 225px;
+  position: relative;
+}
+.Rectangle1 {
+  width: 225px;
+  height: 225px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+.ImagePhotoroom21 {
+  width: 84px;
+  height: 150px;
+  left: 43.5px;
+  top: 15px;
+  position: absolute;
+}
+.ImagePhotoroom31 {
+  width: 80.67px;
+  height: 150px;
+  left: 100.5px;
+  top: 59.25px;
+  position: absolute;
+}
+.Text1 {
+  left: 585px;
+  top: 173px;
+  position: absolute;
+  color: #ff66b3;
+  font-size: 24px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Size2 {
+  left: 275px;
+  top: 446px;
+  position: absolute;
+  text-align: center;
+}
+.Pic2 {
+  left: 258px;
+  top: 211px;
+  position: absolute;
+  border-radius: 30px;
+  border: 1px #084b83 solid;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+.ImagePhotoroom51 {
+  width: 225px;
+  height: 225px;
+}
+.Text2 {
+  left: 311px;
+  top: 173px;
+  position: absolute;
+  color: #ff66b3;
+  font-size: 24px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Size3 {
+  left: 50px;
+  top: 446px;
+  position: absolute;
+  text-align: center;
+}
+.Pic3 {
+  left: 0px;
+  top: 211px;
+  position: absolute;
+  border-radius: 30px;
+  border: 1px #084b83 solid;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+.ImagePhotoroom41 {
+  width: 225px;
+  height: 225px;
+}
+.Text3 {
+  left: 75px;
+  top: 173px;
+  position: absolute;
+  color: #ff66b3;
+  font-size: 24px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.SoftStar {
+  width: 100px;
+  height: 100px;
+  left: 450px;
+  top: 64px;
+  position: absolute;
+}
+.SubtitleCatalog2 {
+  width: 360px;
+  left: 639px;
+  top: 93px;
+  position: absolute;
+  text-align: right;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.SubtitleCatalog1 {
+  left: 0px;
+  top: 78px;
+  position: absolute;
+  color: #084b83;
+  text-align: left;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.HeadingCatalog {
+  left: 0px;
+  top: 30px;
+  position: absolute;
+  color: #ff66b3;
+  font-size: 24px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Order {
+  width: 100%;
+  height: 460px;
+  left: 0px;
+  top: 1640px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.TextOrder {
+  left: 50px;
+  top: 380px;
+  position: absolute;
+  text-align: center;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.ButtonOrder {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 106px;
+  top: 311px;
+  position: absolute;
+  background: #ff66b3;
+  box-shadow: 0px 4px 10px rgba(255, 102, 179, 0.4);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  border: none;
+  color: #fdfffc;
+  font-size: 20px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+  cursor: pointer;
+  z-index: 10;
+}
+.GroupOrder {
+  width: 400px;
+  height: 213px;
+  left: 0px;
+  top: 73px;
+  position: absolute;
+}
+.Text_tel {
+  left: 0px;
+  top: 4px;
+  position: absolute;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Input_tel {
+  width: 300px;
+  height: 30px;
+  left: 100px;
+  top: 0px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px #56ccf2 solid;
+  background-color: #fdfffc;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  color: #084b83;
+}
+.Text_prod {
+  left: 0px;
+  top: 50px;
+  position: absolute;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.ComboBox {
+  width: 305px;
+  height: 30px;
+  left: 100px;
+  top: 46px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px #56ccf2 solid;
+  background-color: #fdfffc;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  color: #084b83;
+}
+.Text_size {
+  left: 0px;
+  top: 96px;
+  position: absolute;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Input_size {
+  width: 300px;
+  height: 30px;
+  left: 100px;
+  top: 92px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px #56ccf2 solid;
+  background-color: #fdfffc;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  color: #084b83;
+}
+.Text_comm {
+  left: 0px;
+  top: 142px;
+  position: absolute;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Input_comm {
+  width: 300px;
+  height: 75px;
+  left: 100px;
+  top: 141px;
+  position: absolute;
+  border-radius: 10px;
+  border: 1px #56ccf2 solid;
+  background-color: #fdfffc;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  color: #084b83;
+  resize: none;
+}
+.PicOrder1 {
+  width: 550px;
+  height: 376px;
+  left: 440px;
+  top: 25px;
+  position: absolute;
+}
+.Order1 {
+  left: 0px;
+  top: 30px;
+  position: absolute;
+  color: #ff66b3;
+  font-size: 24px;
+  font-family: Yeseva One;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.Footer {
+  width: 100%;
+  height: 100px;
+  left: 0;
+  top: 2100px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background: #bbe6e4;
+}
+.TextFooter1 {
+  text-align: left;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.TextFooter2 {
+  text-align: right;
+  color: #084b83;
+  font-size: 16px;
+  font-family: Kosko Regular;
+  font-weight: 400;
+  word-wrap: break-word;
+}
