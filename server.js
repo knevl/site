@@ -27,6 +27,8 @@ client.connect();
 app.post('/', (req, res) => {
   const { phone, product, size, comment } = req.body;
 
+  const n = Math.floor(Math.random() * 6 + 1) * 5;
+
   // SQL-запрос для вставки данных в таблицу orders
   const query = `
     INSERT INTO orders (phone, product, size, comment)
@@ -42,7 +44,7 @@ app.post('/', (req, res) => {
       // Ответ с сообщением об успешном заказе
       res.send(`
         <div class="TextOrder">
-          Ваш заказ принят!<br />В ближайшее время с вами свяжется менеджер
+          Ваш заказ принят!<br />В течение ${n} минут с вами свяжется менеджер
         </div>
       `);
     }

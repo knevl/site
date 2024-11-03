@@ -241,10 +241,8 @@ body {
   position: absolute;
 }
 .ImagePhotoroom21 {
-  width: 84px;
-  height: 150px;
-  left: 43.5px;
-  top: 15px;
+  width: 225px;
+  height: 225px;
   position: absolute;
 }
 .ImagePhotoroom31 {
@@ -550,4 +548,492 @@ body {
   font-family: Kosko Regular;
   font-weight: 400;
   word-wrap: break-word;
+}
+@media (width: 360px) {
+  body {
+    width: 360px;
+    height: 2700px;
+    position: relative;
+    background: #fdfffc;
+    margin: 0%;
+  }
+  .Home {
+    width: 360px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  .PicHome1 {
+    width: 300px;
+    height: 413.67px;
+    left: 30px;
+    top: 70px;
+    position: absolute;
+    background-size: contain;
+  }
+  .HeadingHome {
+    left: 30px;
+    top: 335px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 48px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 5;
+  }
+
+  .SubtitleHome {
+    width: 169px;
+    left: 30px;
+    top: 460px;
+    position: absolute;
+    color: #084b83;
+    font-size: 20px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 5;
+  }
+  .ButtonHome {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 107px;
+    top: 537px;
+    position: absolute;
+    background: #ff66b3;
+    box-shadow: 0px 4px 10px rgba(255, 102, 179, 0.4);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  .TextFooter1 {
+    width: 300px;
+    left: 30px;
+    top: 25px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .TextFooter2 {
+    left: 30px;
+    top: 104px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .Footer {
+    width: 360px;
+    height: 180px;
+
+    top: 2520px;
+    position: absolute;
+    background: #bbe6e4;
+  }
+  .TextAbout1 {
+    width: 180px;
+    left: 30px;
+    top: 81px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .TextAbout2 {
+    width: 213px;
+    left: 30px;
+    top: 286px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .HeadingAbout {
+    left: 30px;
+    top: 10px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .TextAbout1 {
+    width: 180px;
+    left: 30px;
+    top: 81px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .TextAbout2 {
+    width: 213px;
+    left: 30px;
+    top: 286px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  .PicAbout1 {
+    width: 172px;
+    height: 406px;
+    left: 188px;
+    top: 40px;
+    position: absolute;
+  }
+
+  .About {
+    width: 360px;
+    height: 450px;
+    left: 0px;
+    top: 650px;
+    position: absolute;
+  }
+  .ButtonOrder {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 93px;
+    top: 506px;
+    position: absolute;
+    background: #ff66b3;
+    box-shadow: 0px 4px 10px rgba(255, 102, 179, 0.4);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  .Order {
+    width: 360px;
+    height: 560px;
+    left: 0px;
+    top: 1890px;
+    position: absolute;
+  }
+  .Text_tel {
+    left: 0px;
+    top: 4px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .GroupOrder {
+    width: 300px;
+    height: 213px;
+    left: 30px;
+    top: 268px;
+    position: absolute;
+  }
+  .Order1 {
+    left: 30px;
+    top: 225px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 24px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .PicOrder1 {
+    width: 300px;
+    height: 205.09px;
+    left: 30px;
+    top: 10px;
+    position: absolute;
+  }
+  .Input_tel {
+    width: 200px;
+    height: 30px;
+    left: 100px;
+    top: 0px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px #56ccf2 solid;
+  }
+  .ComboBox {
+    width: 200px;
+    height: 30px;
+    left: 100px;
+    top: 46px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px #56ccf2 solid;
+  }
+  .Input_size {
+    width: 200px;
+    height: 30px;
+    left: 100px;
+    top: 92px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px #56ccf2 solid;
+  }
+  .Input_comm {
+    width: 200px;
+    height: 75px;
+    left: 100px;
+    top: 138px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px #56ccf2 solid;
+  }
+  .HeadingCatalog {
+    left: 30px;
+    top: 0px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 24px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .SubtitleCatalog1 {
+    left: 30px;
+    top: 53px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .SubtitleCatalog2 {
+    width: 300px;
+    left: 30px;
+    top: 672px;
+    position: absolute;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  .Catalog {
+    width: 360px;
+    height: 790px;
+    left: 0px;
+    top: 1100px;
+    position: absolute;
+  }
+  .container {
+    width: 1000px;
+    position: static;
+  }
+  .Text3 {
+    left: 69px;
+    top: 132px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .Pic3 {
+    left: 30px;
+    top: 165px;
+    position: absolute;
+    border-radius: 30px;
+    border: 1px #084b83 solid;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+  .ImagePhotoroom41 {
+    width: 140px;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .Size3 {
+    left: 46px;
+    top: 315px;
+    position: absolute;
+    text-align: center;
+  }
+  .pink-text {
+    color: #ff66b3;
+    font-size: 12px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .blue-text {
+    color: #084b83;
+    font-size: 12px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .Text1 {
+    left: 224px;
+    top: 132px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .Pic1 {
+    left: 190px;
+    top: 165px;
+    position: absolute;
+    border-radius: 30px;
+    border: 1px #084b83 solid;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  .Group6 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+  }
+  .Rectangle1 {
+    width: 140px;
+    height: 140px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+  }
+  .ImagePhotoroom21 {
+    width: 140px;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .Size1 {
+    left: 195px;
+    top: 315px;
+    position: absolute;
+  }
+  .SoftStar {
+    width: 100px;
+    height: 100px;
+    left: 130px;
+    top: 325px;
+    position: absolute;
+  }
+  .Text2 {
+    left: 50px;
+    top: 384px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .Size2 {
+    left: 28px;
+    top: 567px;
+    position: absolute;
+    text-align: center;
+  }
+  .Pic2 {
+    left: 30px;
+    top: 417px;
+    position: absolute;
+    border-radius: 30px;
+    border: 1px #084b83 solid;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+  .ImagePhotoroom51 {
+    width: 140px;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .Text {
+    left: 230px;
+    top: 382px;
+    position: absolute;
+    color: #ff66b3;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .Pic {
+    left: 190px;
+    top: 417px;
+    position: absolute;
+    border-radius: 30px;
+    border: 1px #084b83 solid;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+  }
+  .ImagePhotoroom61 {
+    width: 140px;
+    height: 140px;
+    border-radius: 30px;
+  }
+  .Size {
+    left: 185px;
+    top: 567px;
+    position: absolute;
+    text-align: center;
+  }
+  .ButtonCatalog {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 102px;
+    top: 733px;
+    position: absolute;
+    background: #ff66b3;
+    box-shadow: 0px 4px 10px rgba(255, 102, 179, 0.4);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: #fdfffc;
+    font-size: 20px;
+    font-family: Yeseva One;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .TextOrder {
+    left: 48px;
+    top: 574px;
+    position: absolute;
+    text-align: center;
+    color: #084b83;
+    font-size: 14px;
+    font-family: Kosko Regular;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
 }

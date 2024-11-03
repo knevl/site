@@ -14,7 +14,10 @@
           <div class="HeadingHome">knyazeva<br />knits</div>
           <div class="SubtitleHome">вяжу сумки, кейсы, брелки и корзинки</div>
           <button class="ButtonHome">каталог</button>
-          <img class="PicHome1" src="pic_home.png" />
+          <picture
+            ><source srcset="pic_home_mob2.png" media="(max-width: 360px)" />
+            <img class="PicHome1" src="pic_home.png"
+          /></picture>
         </div>
       </div>
       <div class="About">
@@ -34,7 +37,11 @@
             не только удобны в использовании, но и добавляют тепла и уюта в ваш
             повседневный мир.
           </div>
-          <img class="PicAbout1" src="pic_about.png" />
+
+          <picture
+            ><source srcset="pic_about_mob.png" media="(max-width: 360px)" />
+            <img class="PicAbout1" src="pic_about.png"
+          /></picture>
         </div>
       </div>
       <div class="Catalog">
@@ -58,8 +65,7 @@
           <div class="Pic1">
             <div class="Group6">
               <div class="Rectangle1"></div>
-              <img class="ImagePhotoroom21" src="pic_trinket_1.png" />
-              <img class="ImagePhotoroom31" src="pic_trinket_2.png" />
+              <img class="ImagePhotoroom21" src="all2.png" />
             </div>
           </div>
           <div class="Text1">брелок</div>
@@ -154,6 +160,13 @@
           const size = document.querySelector('.Input_size').value;
           const comment = document.querySelector('.Input_comm').value;
 
+          // Удаляем предыдущее сообщение, если оно существует
+          const previousMessage = document.querySelector('.TextOrder');
+          if (previousMessage) {
+            previousMessage.remove();
+          }
+
+          // Отправляем запрос на сервер
           fetch('http://localhost:3000/', {
             method: 'POST',
             headers: {
@@ -163,16 +176,23 @@
           })
             .then((response) => response.text())
             .then((data) => {
-              // Вместо замены всего содержимого добавляем новый элемент в конец контейнера
+              // Выводим новое сообщение
               const messageContainer = document.createElement('div');
               messageContainer.innerHTML = data;
               document
                 .querySelector('.Order .container')
                 .appendChild(messageContainer);
+
+              // Очищаем поля ввода
+              document.querySelector('.Input_tel').value = '';
+              document.querySelector('.ComboBox').value = 'сумка';
+              document.querySelector('.Input_size').value = '';
+              document.querySelector('.Input_comm').value = '';
             })
             .catch((error) => console.error('Ошибка:', error));
         });
     </script>
+
     <script>
       document
         .querySelector('.ButtonCatalog')
