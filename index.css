@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #fdfffc;
 }
@@ -435,6 +438,7 @@ body {
   font-size: 16px;
   font-family: Kosko Regular;
   color: #084b83;
+  padding-left: 10px;
 }
 .Text_prod {
   left: 0px;
@@ -447,7 +451,7 @@ body {
   word-wrap: break-word;
 }
 .ComboBox {
-  width: 305px;
+  width: 300px;
   height: 30px;
   left: 100px;
   top: 46px;
@@ -458,6 +462,7 @@ body {
   font-size: 16px;
   font-family: Kosko Regular;
   color: #084b83;
+  padding-left: 10px;
 }
 .Text_size {
   left: 0px;
@@ -481,6 +486,7 @@ body {
   font-size: 16px;
   font-family: Kosko Regular;
   color: #084b83;
+  padding-left: 10px;
 }
 .Text_comm {
   left: 0px;
@@ -505,6 +511,7 @@ body {
   font-family: Kosko Regular;
   color: #084b83;
   resize: none;
+  padding-left: 10px;
 }
 .PicOrder1 {
   width: 550px;

@@ -166,6 +166,28 @@
             previousMessage.remove();
           }
 
+          // Проверяем, что поле для ввода телефона не пустое
+          if (!phone) {
+            // Добавляем красную рамку и сообщение о необходимости заполнить поле
+            const phoneInput = document.querySelector('.Input_tel');
+            phoneInput.style.borderColor = 'red'; // выделяем поле красным
+            let errorMessage = document.createElement('div');
+            errorMessage.classList.add('TextOrder');
+            errorMessage.style.color = 'red';
+            errorMessage.innerText =
+              'Поле "Номер телефона" обязательно для заполнения!';
+            document
+              .querySelector('.Order .container')
+              .appendChild(errorMessage);
+
+            // Останавливаем отправку формы, если номер телефона не введен
+            event.preventDefault();
+            return;
+          }
+
+          // Если поле телефона заполнено, сбрасываем стиль рамки в синий
+          document.querySelector('.Input_tel').style.borderColor = '';
+
           // Отправляем запрос на сервер
           fetch('http://localhost:3000/', {
             method: 'POST',
